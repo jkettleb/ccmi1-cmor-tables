@@ -1,5 +1,5 @@
 cmor_version: 2.5.0    ! minimum version of CMOR that can read this table
-cf_version:   1.6      ! version of CF that output conforms to
+cf_version:   1.4      ! version of CF that output conforms to
 project_id:   CCMI1    ! project id
 table_id:     daily    ! table id
 table_date:   22nd April 2014 ! date this table was constructed
