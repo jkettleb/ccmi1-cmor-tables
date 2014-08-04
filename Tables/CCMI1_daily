@@ -456,6 +456,26 @@ must_have_bounds: yes
 !
 
 !============
+axis_entry: time1
+!============
+!----------------------------------
+! Axis attributes:
+!----------------------------------
+standard_name:    time
+units:            days since ?
+axis:             T             ! X, Y, Z, T (default: undeclared)
+long_name:        time
+!----------------------------------
+! Additional axis information:
+!----------------------------------
+out_name:         time
+stored_direction: increasing
+type:             double
+must_have_bounds: no
+!----------------------------------
+!
+
+!============
 axis_entry: smooth_level
 !============
 !
@@ -1185,7 +1205,7 @@ comment:           Temperature on the 5 hPa surface
 !----------------------------------
 ! Additional variable information:
 !----------------------------------
-dimensions:        longitude latitude time pr5
+dimensions:        longitude latitude time1 pr5
 type:              real
 valid_min:         0.0
 valid_max:         1000.0
@@ -1346,7 +1366,7 @@ comment:           Temperature on the 1000 hPa surface
 !----------------------------------
 ! Additional variable information:
 !----------------------------------
-dimensions:        longitude latitude time pr1000
+dimensions:        longitude latitude time1 pr1000
 type:              real
 valid_min:         0.0
 valid_max:         1000.0
@@ -2315,7 +2335,7 @@ comment:
 !----------------------------------
 ! Additional variable information:
 !----------------------------------
-dimensions:        longitude latitude alevel time
+dimensions:        longitude latitude alevel time1
 type:              real
 valid_min:         0.0
 valid_max:         1000.0
@@ -2384,7 +2404,7 @@ comment:           omega
 !----------------------------------
 ! Additional variable information:
 !----------------------------------
-dimensions:        longitude latitude alevel time
+dimensions:        longitude latitude alevel time1
 type:              real
 valid_min:         -1000.0
 valid_max:         1000.0
