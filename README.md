@@ -1,10 +1,6 @@
 ccmi1-cmor-tables
 =================
 
-MIP tables for the CCMI1.
+If you are looking for ccmi1 cmor/mip tables please see:
 
-These are based on those taken from http://www.met.reading.ac.uk/~qr903932/CCMI-website/Wordpress_PDFs/CCMI1_CMOR-tables_20140422.zip on 2014-06-05.
-
-
-For now continue to use those linked to from the above address, rather
-than these in this repository.
+https://github.com/ccmi1-test/ccmi1-cmor-tables
